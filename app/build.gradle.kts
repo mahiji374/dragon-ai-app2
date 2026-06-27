@@ -29,6 +29,7 @@ android {
       keyPassword = System.getenv("KEY_PASSWORD")
     }
     c
+}
    
   }
 
@@ -40,7 +41,7 @@ android {
       signingConfig = signingConfigs.getByName("release")
     }
     debug {
-      signingConfig = signingConfigs.getByName("debugConfig")
+    
     }
   }
   compileOptions {
