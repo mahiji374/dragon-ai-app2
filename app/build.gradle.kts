@@ -28,12 +28,8 @@ android {
       keyAlias = "upload"
       keyPassword = System.getenv("KEY_PASSWORD")
     }
-    create("debugConfig") {
-      storeFile = file("${rootDir}/debug.keystore")
-      storePassword = "android"
-      keyAlias = "androiddebugkey"
-      keyPassword = "android"
-    }
+    c
+   
   }
 
   buildTypes {
@@ -48,7 +44,7 @@ android {
     }
   }
   compileOptions {
-    sourceCompatibility = JavaVersion.VERSION_11
+    
     targetCompatibility = JavaVersion.VERSION_11
   }
   buildFeatures {
