@@ -1,0 +1,6 @@
+{
+  "name": "Dragon AI",
+  "description": "Premium AI Video Generator that creates cinematic videos from text and image prompts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
