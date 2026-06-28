@@ -28,10 +28,10 @@ android {
       keyAlias = "upload"
       keyPassword = System.getenv("KEY_PASSWORD")
     }
-    c
-}
+    
+
    
-  }
+  
 
   buildTypes {
     release {
